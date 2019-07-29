@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/aa-ziyi/YXbook#readme",
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
+    "antd": "^3.20.7",
+    "antd-mobile": "^2.2.14",
+    "babel-plugin-import": "^1.12.0",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -29,6 +34,7 @@
   "devDependencies": {
     "@types/node": "^12.6.8",
     "@types/react": "^16.8.23",
-    "install": "^0.13.0"
+    "install": "^0.13.0",
+    "style-loader": "^0.23.1"
   }
 }
