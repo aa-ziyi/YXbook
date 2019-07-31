@@ -1,25 +1,20 @@
-import HeaderFooter from '../../layouts/HeaderFooter'
-import dynamic from 'next/dynamic'
+import HeaderFooter from '../../layouts/HeaderFooter';
+import dynamic from 'next/dynamic';
 const Olddriver = dynamic(import('../../components/OldDriver'), {
   loading: () => <p>loading...</p>
-})
+});
+
+const style = {
+  color: 'red',
+  fontSize: '46px'
+};
 
 export default () => {
   return (
     <HeaderFooter active="home">
-      <div id="homepage">
-        <Olddriver></Olddriver>
+      <div id="homepage" style={style}>
+        <Olddriver />
       </div>
-      <style>{`
-        #homepage {
-          width: 100%;
-          height:600px;
-          background-color: #f7f7f7;
-          display: flex;
-          justify-content: center;
-          align-items: center
-        }
-      `}</style>
     </HeaderFooter>
-  )
-}
+  );
+};
