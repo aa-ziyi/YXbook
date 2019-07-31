@@ -1,0 +1,6 @@
+// {
+//   "rules": {
+//     "no-implicit-dependencies": [true, ["src"]],
+//     "no-submodule-imports": [true, "src"]
+//   }
+// }

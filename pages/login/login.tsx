@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputItem, Button, WhiteSpace, WingBlank } from 'antd-mobile';
 import { createForm } from 'rc-form';
-import instance from '../../utils/axios';
+import instance from 'utils/axios';
 
 interface Props {
   form: any;
